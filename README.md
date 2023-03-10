@@ -1,5 +1,6 @@
 CS 주제 
 =======================================
+[참고] https://github.com/gyoogle/tech-interview-for-developer
 
 ## 1. 디자인 패턴
 ||주제|예상질문|
