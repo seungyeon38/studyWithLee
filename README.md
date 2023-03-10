@@ -5,7 +5,7 @@ CS 주제
 ||주제|예상질문|
 |---|---|---|
 | :white_large_square: |어댑터 패턴||
-| :white_check_mark: |싱글톤 패턴||
+| :white_large_square: |싱글톤 패턴||
 | :white_large_square: |탬플릿 메소드 패턴||
 | :white_large_square: |팩토리 메소드 패턴||
 | :white_large_square: |옵저버 패턴||
