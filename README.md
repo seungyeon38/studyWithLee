@@ -40,7 +40,7 @@ https://github.com/gyoogle/tech-interview-for-developer
 | :white_large_square: |TCP/IP 흐름제어 & 혼잡제어||
 | :white_large_square: |UDP||
 | :white_check_mark: |[대칭키 & 공개키](네트워크/대칭키&공개키.md)||
-| :white_large_square: |HTTP & HTTPS||
+| :white_check_mark: |HTTP & HTTPS||
 | :white_large_square: |TLS/SSL handshake||
 | :white_large_square: |로드 밸런싱(Load Balancing)||
 | :white_large_square: |Blocking,Non-blocking & Synchronous,Asynchronous||
