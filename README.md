@@ -2,6 +2,8 @@ CS 주제
 =======================================
 [참고] https://github.com/gyoogle/tech-interview-for-developer
 
+본인이 했던 주제는 :white_check_mark: 로 표시해주세요~!
+
 ## 1. 디자인 패턴
 ||주제|예상질문|
 |---|---|---|
@@ -29,7 +31,7 @@ CS 주제
 | :white_large_square: |TCP 3 way handshake & 4 way handshake||
 | :white_large_square: |TCP/IP 흐름제어 & 혼잡제어||
 | :white_large_square: |UDP||
-| :white_check_mark: |대칭키 & 공개키||
+| :white_large_square: |대칭키 & 공개키||
 | :white_large_square: |HTTP & HTTPS||
 | :white_large_square: |TLS/SSL handshake||
 | :white_large_square: |로드 밸런싱(Load Balancing)||
