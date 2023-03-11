@@ -2,8 +2,12 @@ CS 주제
 =======================================
 **[규칙]**
 1. 본인이 했던 주제는 :white_check_mark: 로 표시해주세요~!
-2. commit message ***"스터디회차_주제"*** 로 commit 해주세요~! <br/>
+2. 주제에 링크 달기 <br/>
+   (ex) [대칭키 & 공개키](네트워크/대칭키&공개키.md)
+3. md파일은 주제별 폴더 아래에 작성해주세요~!
+4. commit message ***"스터디회차_주제"*** 로 commit 해주세요~! <br/>
    (ex) 1회차_대칭키&공개키
+5. commit할 때 부가적으로 쓸 내용은 commit message 아래 description에 작성해주세요~!
 
 **[참고]** <br/>
 https://github.com/gyoogle/tech-interview-for-developer
@@ -35,7 +39,7 @@ https://github.com/gyoogle/tech-interview-for-developer
 | :white_large_square: |TCP 3 way handshake & 4 way handshake||
 | :white_large_square: |TCP/IP 흐름제어 & 혼잡제어||
 | :white_large_square: |UDP||
-| :white_check_mark: |대칭키 & 공개키||
+| :white_check_mark: |[대칭키 & 공개키](네트워크/대칭키&공개키.md)||
 | :white_large_square: |HTTP & HTTPS||
 | :white_large_square: |TLS/SSL handshake||
 | :white_large_square: |로드 밸런싱(Load Balancing)||
