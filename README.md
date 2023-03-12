@@ -73,7 +73,7 @@ https://github.com/gyoogle/tech-interview-for-developer
 ||주제|예상질문|
 |---|---|---|
 | :white_large_square: |키(Key) 정리||
-| :white_large_square: |SQL - JOIN||
+| :white_check_mark: |[SQL-JOIN](데이터베이스/SQL-JOIN.md)||
 | :white_large_square: |SQL Injection||
 | :white_large_square: |SQL vs NoSQL||
 | :white_large_square: |정규화(Nomalization)||
