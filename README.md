@@ -109,3 +109,11 @@ https://github.com/gyoogle/tech-interview-for-developer
 | :white_large_square: |내용 2||
 | :white_large_square: |내용 6||
 
+
+## 7. 웹
+||주제|예상질문|
+|---|---|---|
+| :white_check_mark: |REST||
+| :white_large_square: |내용 6||
+
+
