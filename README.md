@@ -113,7 +113,7 @@ https://github.com/gyoogle/tech-interview-for-developer
 ## 7. 웹
 ||주제|예상질문|
 |---|---|---|
-| :white_check_mark: |REST||
+| :white_check_mark: |REST(웹/REST.md)||
 | :white_large_square: |내용 6||
 
 
