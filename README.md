@@ -10,7 +10,10 @@ CS 주제
 5. commit할 때 부가적으로 쓸 내용은 commit message 아래 description에 작성해주세요~!
 
 **[참고]** <br/>
-https://github.com/gyoogle/tech-interview-for-developer
+https://github.com/gyoogle/tech-interview-for-developer <br/>
+https://github.com/WeareSoft/tech-interview <br/>
+https://github.com/brave-people/brave-tech-interview <br/>
+https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 1. 디자인 패턴
 ||주제|예상질문|
