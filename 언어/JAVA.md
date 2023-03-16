@@ -3,37 +3,42 @@
 - [특징](#특징)
 - [컴파일 과정](#컴파일-과정)
 
+<br/>
+
 ## 특징
 
-#### 1. OS(운영체제)에 독립적이다. <br/>
+### 1. OS(운영체제)에 독립적이다. <br/>
 
 JVM에서 동작하므로 특정 운영체제에 종속되지 않는다. <br/>
 JAVA에서 OS마다 다르게 미리 짜놓아서 공통된 코드를 읽을 수 있게 짜놓았기 때문에, 개발자들이 더이상 OS마다 다른 코드를 짤 필요가 없어짐.
 
-<img src="https://user-images.githubusercontent.com/29995318/225483561-e4965236-21d0-4f3c-b8c1-9f495b256319.png" width="400">
+<p align="center"><img src="https://user-images.githubusercontent.com/29995318/225483561-e4965236-21d0-4f3c-b8c1-9f495b256319.png" width="450"></p>
 
-#### 2. 객체지향언어이다. <br/>
+### 2. 객체지향언어이다. <br/>
 
 [**객체지향 프로그래밍**] <br/>
 > 현실 세계의 사물같은 객체를 만들고, 객체에서 필요한 특징을 뽑아 프로그래밍 수행 <br/>
 > [참고] https://xangmin.tistory.com/152
 
-* 특징 
-    * 추상화 <br/>
+* 특징    
+    * **추상화** <br/>
         * 객체의 공통적인 속성과 기능을 추출하여 정의하는것 <br/>
         (ex) 자동차, 오토바이 <br/>
             -> 이동 수단, 전진과 후진을 할 수 있다. <br/>
             : 자동차, 오토바이 라는 하위 클래스들의 공통적인 특성을 뽑아서 이동 수단이라는 상위 클래스에 정의 
         * 자바에서 추상화를 구현할 수 있는 문법 요소 <br/>
         : 추상 클래스(abstract class), 인터페이스(interface)
-    * 캡슐화 <br/>
+        <br/>
+    * **캡슐화** <br/>
         * 데이터와 코드의 형태를 외부로부터 알 수 없게 하고, 데이터의 구조와 역할, 기능을 하나의 캡슐 형태로 만드는 방법 (정보 은닉)
         * 정보은닉을 통해서 높은 응집도, 낮은 결합도 
         * 자바 <br/>
         : 멤버 변수를 private으로 만들고 get, set 할 수 있는 메소드를 만든다. 
-    * 상속화 <br/>
+        <br/>
+    * **상속화** <br/>
         * 부모 클래스에 정의된 변수 및 메서드를 자식 클래스에서 상속받아 사용하는 것
-    * 다형성
+        <br/>
+    * **다형성**
         * 메시지에 의해 객체가 연산을 수행하게 될 때, 하나의 메시지에 대해 각 객체가 가지고 있는 고유한 방법으로 응답할 수 있는 능력
         * 오버로딩 / 오버라이딩 <br/>
           * 오버로딩 <br/>
@@ -45,30 +50,34 @@ JAVA에서 OS마다 다르게 미리 짜놓아서 공통된 코드를 읽을 수
 
 <br/>
 
-* 원칙 - **SOLID**
-    * 단일 책임 원칙 (SRP : Single Responsibility Principle)
+* 원칙 - **SOLID** 
+    * 단일 책임 원칙 (**S**RP : Single Responsibility Principle)
       * 한 클래스는 하나의 책임만 가져야 한다. 
-    * 개방 폐쇄 원칙 (OCP : Open/Closed Principle)
+    * 개방 폐쇄 원칙 (**O**CP : Open/Closed Principle)
       * 확장에는 열려있으나, 변경에는 닫혀있어야한다. 
-    * 리스코프 치환 원칙 (LSP : Liskov’s Substitution Principle)
+    * 리스코프 치환 원칙 (**L**SP : Liskov’s Substitution Principle)
       * 프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다. 
-    * 인터페이스 분리 원칙 (ISP : Interface Segregation Principle)
+    * 인터페이스 분리 원칙 (**I**SP : Interface Segregation Principle)
       * 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다. 
-    * 의존관계 역전 원칙 (DIP : Dependency Inversion Principle)
+    * 의존관계 역전 원칙 (**D**IP : Dependency Inversion Principle)
       * 추상화에 의존한다. 구체화에 의존하면 안된다. 
 
-   <br/>
+<br/>
    
-#### 3. 자동으로 메모리 관리를 해준다. <br/>
+### 3. 자동으로 메모리 관리를 해준다. <br/>
    JVM에서 **Garbage Collector**라고 불리는 데몬 쓰레드에 의해서 **GC**가 일어난다. <br/>
    **GC**로 인해 별도의 메모리 관리가 필요없으며, 비즈니스 로직에 집중할 수 있다. 
 
+<br/><br/>
 
 ## 컴파일 과정
 
-<img alt="스크린샷 2023-03-16 오전 10 46 39" src="https://user-images.githubusercontent.com/29995318/225488635-d3ec9f7d-111b-4f85-ac49-9a68fe156b95.png" width="600" >
+<p align="center"><img alt="스크린샷 2023-03-16 오전 10 46 39" src="https://user-images.githubusercontent.com/29995318/225488635-d3ec9f7d-111b-4f85-ac49-9a68fe156b95.png" width="600"></p>
 
-우리가 짠 소스코드가 컴파일러를 통해서 클래스 파일로 바뀐다. 이 클래스 파일이 바이트 코드이다. JVM에서 돌아가게 만들어진 코드(010001 이런게 X). 이걸 JVM이 읽게 됨.
+<br/>
+
+우리가 짠 소스코드가 컴파일러를 통해서 클래스 파일로 바뀐다. 이 클래스 파일이 바이트 코드이다. <br/>
+JVM에서 돌아가게 만들어진 코드(010001 이런게 X). 이걸 JVM이 읽게 됨.
 
 Class Loader는 class(byte code)들을 불러옴. 
 
@@ -77,6 +86,8 @@ Runtime Data Areas가 JAVA의 메모리
 
 실행 엔진에서 이것들을 실행 
 
+<br/>
+
 ### 자바 실행 과정이 어떻게 될까요? 
 1. 컴파일러가 자바 소스를 바이트 코드로 변환합니다. 
 2. Class Loader가 바이트 코드를 런타임 데이터 영역에 로드시키구요.
@@ -84,20 +95,36 @@ Runtime Data Areas가 JAVA의 메모리
 
 
 ### 자바 메모리 구조는 어떻게 이루어져 있나요?
-크게 5가지 영역으로 구분됩니다.
-우선, 스레드마다 PC register, JVM stack, Native Method Stack이 있습니다. 그리고 스레드 공통으로는 Heap과 Method area가 있습니다. PC Register는 현재 수행중인 JVM 명령어가 들어가있고, JVM stack은 호출된 메소드의 매개변수, 지역변수, 리턴 정보들이 저장됩니다. 그리고 Native Method Stack은 자바 외의 언어인 C나 C++ 같은 것들을 수행하기 위한 영역이구요, Method Area는 클래스 별로 전역 변수, 정적 변수, 메소드 정보들이 저장되게 됩니다. 마지막으로 heap영역은 런타임 중 생성되는 객체들이 동적으로 할당되는 곳입니다. 
+크게 **5가지 영역**으로 구분됩니다. <br/>
+우선, 스레드마다 **PC register, JVM stack, Native Method Stack**이 있습니다. 그리고 스레드 공통으로는 **Heap과 Method area**가 있습니다. <br/>
+
+<br/>
+ 
+**PC Register**는 현재 수행중인 JVM 명령어가 들어가있고,  <br/>
+**JVM stack**은 호출된 메소드의 매개변수, 지역변수, 리턴 정보들이 저장됩니다.  <br/>
+그리고 **Native Method Stack**은 자바 외의 언어인 C나 C++ 같은 것들을 수행하기 위한 영역이구요,  <br/>
+**Method Area**는 클래스 별로 전역 변수, 정적 변수, 메소드 정보들이 저장되게 됩니다.  <br/>
+마지막으로 **Heap**영역은 런타임 중 생성되는 객체들이 동적으로 할당되는 곳입니다. 
 
 <br/>
 
 ## GC (Garbage Collection)
+> [참고] https://blog.naver.com/rollrat/222836458281 
+
 JVM에서 메모리 관리해주는 모듈 
 예전(C, C++ ...)에는 개발자가 메모리를 관리해줘야 했다. 메모리를 비워주는 작업들을 직접 했다. 
 
 JAVA는 JVM에서 자동으로 해줌 -> GC
 
-'stop-the-world'란, GC를 실행하기 위해 JVM이 애플리케이션 실행을 멈추는 것입니다. <br/> 어떤 GC 알고리즘을 사용하더라도 'stop-the-world'는 발생하게 되는데, 대개의 경우 GC 튜닝은 이 'stop-the-world' 시간을 줄이는 것이라고 합니다.
+**'stop-the-world'** 란, GC를 실행하기 위해 JVM이 모든 애플리케이션 실행을 멈추는 것. <br/>
+stop-the-world가 발생하면 GC를 실행하는 쓰레드를 제외한 나머지 쓰레드는 모두 작업을 멈춘다. GC작업을 완료한 이후에 작업을 다시 시작함. <br/>
+어떤 가비지 컬렉터 알고리즘을 사용하더라도 stop-the-world는 발생한다. <br/>
 
-잠깐 멈추고 안 쓰고 있는 얘들 찾는 과정 -> Mark and Sweep 
+잠깐 멈추고 안 쓰고 있는 얘들 찾는 과정 -> **Mark and Sweep** <br/>
+Mark : GC Root에서 시작해 이 Root가 참조하는 모든 오브젝트, 또 그 오브젝트들이 참조하는 다른 오브젝트들을 탐색해 내려가며 마크(Mark)한다. <br/>
+Sweep : Mark가 끝나면 가비지 컬렉터는 힙 내부를 전체를 돌면서 Mark되지 않은 메모리들을 해제(Reclaim)한다. 
+
+<br/>
 
 ### GC가 뭔가요? 
 GC는 JVM에서 메모리를 관리해주는 모듈입니다. Heap 메모리를 재활용하기 위해서 더이상 참조되지 않는 객체들을 메모리에서 제거하는 모듈입니다. 그래서 개발자가 직접 메모리를 정리하지 않아도 돼서 개발 속도가 향상되는 장점이 있지만, Mark and Sweep 이라는 과정에서 참조되지 않는 객체를 찾는 과정이 있는데, 이때 스레드가 잠깐 중단되어서 성능이 떨어진다는 단점이 있습니다. 
