@@ -48,7 +48,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_large_square: |로드 밸런싱(Load Balancing)||
 | :white_large_square: |Blocking,Non-blocking & Synchronous,Asynchronous||
 | :white_large_square: |Blocking & Non-Blocking I/O||
-
+| :white_check_mark: |[WebSocket & Socket.io](네트워크/WebSocket&Socketio.md)||
 <br/>
 
 ## 3. 운영체제
