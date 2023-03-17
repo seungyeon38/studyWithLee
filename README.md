@@ -87,7 +87,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_large_square: | SQL Injection                                                  |          |
 | :white_large_square: | SQL vs NoSQL                                                   |          |
 | :white_check_mark:   | [정규화(Nomalization)](<데이터베이스/정규화(Nomalization).md>) |          |
-| :white_large_square: | 이상(Anomaly)                                                  |          |
+| :white_check_mark:   | [이상(Anomaly)](데이터베이스/이상(Anomaly).md)                                                  |          |
 | :white_large_square: | 인덱스(INDEX)                                                  |          |
 | :white_large_square: | 트랜잭션(Transaction)                                          |          |
 | :white_large_square: | 트랜잭션 격리 수준(Transaction Isolation Level)                |          |
