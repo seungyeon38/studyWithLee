@@ -39,19 +39,19 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 2. 네트워크
 
-|                      | 주제                                                    | 예상질문 |
-| -------------------- | ------------------------------------------------------- | -------- |
-| :white_large_square: | OSI 7 계층                                              |          |
-| :white_check_mark: | [TCP 3 way handshake & 4 way handshake](네트워크/TCP_3_way_handshake_4_way_handshake.md)                   |          |
-| :white_large_square: | TCP/IP 흐름제어 & 혼잡제어                              |          |
-| :white_large_square: | UDP                                                     |          |
-| :white_check_mark:   | [대칭키 & 공개키](네트워크/대칭키&공개키.md)            |          |
-| :white_check_mark:   | [HTTP & HTTPS](네트워크/HTTP&HTTPS.md)                  |          |
-| :white_large_square: | TLS/SSL handshake                                       |          |
-| :white_large_square: | 로드 밸런싱(Load Balancing)                             |          |
-| :white_large_square: | Blocking,Non-blocking & Synchronous,Asynchronous        |          |
-| :white_large_square: | Blocking & Non-Blocking I/O                             |          |
-| :white_check_mark:   | [WebSocket & Socket.io](네트워크/WebSocket&Socketio.md) |          |
+|                      | 주제                                                                                     | 예상질문 |
+| -------------------- | ---------------------------------------------------------------------------------------- | -------- |
+| :white_large_square: | OSI 7 계층                                                                               |          |
+| :white_check_mark:   | [TCP 3 way handshake & 4 way handshake](네트워크/TCP_3_way_handshake_4_way_handshake.md) |          |
+| :white_large_square: | TCP/IP 흐름제어 & 혼잡제어                                                               |          |
+| :white_large_square: | UDP                                                                                      |          |
+| :white_check_mark:   | [대칭키 & 공개키](네트워크/대칭키&공개키.md)                                             |          |
+| :white_check_mark:   | [HTTP & HTTPS](네트워크/HTTP&HTTPS.md)                                                   |          |
+| :white_large_square: | TLS/SSL handshake                                                                        |          |
+| :white_large_square: | 로드 밸런싱(Load Balancing)                                                              |          |
+| :white_large_square: | Blocking,Non-blocking & Synchronous,Asynchronous                                         |          |
+| :white_large_square: | Blocking & Non-Blocking I/O                                                              |          |
+| :white_check_mark:   | [WebSocket & Socket.io](네트워크/WebSocket&Socketio.md)                                  |          |
 
 <br/>
 
@@ -85,9 +85,9 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark:   | [SQL-기본](데이터베이스/SQL-기본.md)                           |          |
 | :white_large_square: | SQL-JOIN                                                       |          |
 | :white_large_square: | SQL Injection                                                  |          |
-| :white_large_square: | SQL vs NoSQL                                                   |          |
+| :white_check_mark:   | [SQL vs NoSQL](데이터베이스/SQL-vs-NoSQL.md)                   |          |
 | :white_check_mark:   | [정규화(Nomalization)](<데이터베이스/정규화(Nomalization).md>) |          |
-| :white_check_mark:   | [이상(Anomaly)](데이터베이스/이상(Anomaly).md)                                                  |          |
+| :white_check_mark:   | [이상(Anomaly)](<데이터베이스/이상(Anomaly).md>)               |          |
 | :white_large_square: | 인덱스(INDEX)                                                  |          |
 | :white_large_square: | 트랜잭션(Transaction)                                          |          |
 | :white_large_square: | 트랜잭션 격리 수준(Transaction Isolation Level)                |          |
@@ -121,8 +121,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark: | [JAVA - JVM](언어/JAVA.md)                    |          |
 | :white_check_mark: | [JAVA - 컴파일 과정](언어/JAVA.md)            |          |
 | :white_check_mark: | [JAVA - GC(Garbage Collection)](언어/JAVA.md) |          |
-| :white_check_mark: | [Spring](프레임워크/Spring.md) |          |
-
+| :white_check_mark: | [Spring](프레임워크/Spring.md)                |          |
 
 ## 7. 웹
 
