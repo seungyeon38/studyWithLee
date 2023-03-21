@@ -2,6 +2,15 @@
 > 자바 엔터프라이즈 개발을 편하게 해주는 경량급 오픈소스 애플리케이션 프레임워크 <br/>
 > 목표: POJO 기반의 Enterprise Application 개발을 쉽고 편하게 할 수 있도록 한다.
 
+- [Container](#container)
+- [Bean](#bean)
+- [IOC](#ioc)
+- [DI](#di)
+- [ORM](#orm)
+- [JPA](#jpa)
+- [Spring Boot](#spring-boot)
+
+
 <br/>
 
 객체를 관리할 수 있는 **컨테이너**를 제공 <br/>
@@ -105,7 +114,7 @@ JPA는 인터페이스일 뿐, 안에 구현된 건 없다. <br/>
 
 
 ### JPA가 뭔가요?
-JPA는 ORM을 위해서 자바에서 제공하는 API입니다. 자바 객체와 DB 테이블을 매핑하는데요, 구현체로는 하이버네이트가 있습니다. 
+JPA는 ORM을 위해서 자바에서 제공하는 API입니다. 자바 객체와 DB 테이블을 매핑하는데요, 구현체로는 Hibernate가 있습니다. 
 
 <br/>
 <br/>
@@ -156,4 +165,5 @@ JPA는 ORM을 위해서 자바에서 제공하는 API입니다. 자바 객체와
 <br/>
 <br/>
 
-[참고] https://wookcode.tistory.com/99
+[참고1] https://wookcode.tistory.com/99 <br/>
+[참고2] https://gudwnsgur.tistory.com/14
