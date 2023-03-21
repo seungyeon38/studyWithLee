@@ -1,6 +1,6 @@
 # Spring
 > 자바 엔터프라이즈 개발을 편하게 해주는 경량급 오픈소스 애플리케이션 프레임워크 <br/>
-> 목표: POJO 기반의 Enterprise Application 개발을 쉽고 편하게 할 수 있도록 한다.
+> 목표: POJO(Plain Old Java Object) 기반의 Enterprise Application 개발을 쉽고 편하게 할 수 있도록 한다.
 
 - [Container](#container)
 - [Bean](#bean)
