@@ -17,6 +17,8 @@
 공통적으로 사용하는 객체를 원래는 사용하는 애들마다 생성해서 사용해야 함. -> 같은 기능을 하는 애가 여러번 생성됨. 비효율적이다. <br/>
 그래서 Spring은 공통으로 사용하는 애는 같이 쓸 수 있도록 Container를 제공해준다. <br/>
 
+<img src="https://user-images.githubusercontent.com/29995318/226553086-aaa51e75-bf15-4599-8fda-b3133e1bf1c4.png" width="550">
+
 <br/>
 
 ### Container 
