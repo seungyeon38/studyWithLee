@@ -83,7 +83,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | -------------------- | -------------------------------------------------------------- | -------- |
 | :white_large_square: | 키(Key) 정리                                                   |          |
 | :white_check_mark:   | [SQL-기본](데이터베이스/SQL-기본.md)                           |          |
-| :white_large_square: | SQL-JOIN                                                       |          |
+| :white_check_mark:   | [SQL-JOIN](데이터베이스/SQL-JOIN.md)
 | :white_large_square: | SQL Injection                                                  |          |
 | :white_check_mark:   | [SQL vs NoSQL](데이터베이스/SQL-vs-NoSQL.md)                   |          |
 | :white_check_mark:   | [정규화(Nomalization)](<데이터베이스/정규화(Nomalization).md>) |          |
