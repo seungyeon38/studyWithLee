@@ -21,9 +21,11 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 |                      | 주제                      | 예상질문 |
 | -------------------- | ------------------------- | -------- |
 | :white_large_square: | 어댑터 패턴               |          |
-| :white_large_square: | 싱글톤 패턴               |          |
+| :white_check_mark: | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴) |          |
 | :white_large_square: | 탬플릿 메소드 패턴        |          |
-| :white_large_square: | 팩토리 메소드 패턴        |          |
+| :white_check_mark: | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴) |          |
+| :white_check_mark: | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴) |          |
+| :white_check_mark: | [빌더 패턴](디자인패턴/디자인패턴_생성패턴) |          |
 | :white_large_square: | 옵저버 패턴               |          |
 | :white_large_square: | 스트레티지 패턴           |          |
 | :white_large_square: | 컴포지트 패턴             |          |
