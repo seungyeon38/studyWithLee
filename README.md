@@ -135,3 +135,4 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 |                    | 주제                                        | 예상질문 |
 | ------------------ | ------------------------------------------- | -------- |
 | :white_check_mark: | [정렬 알고리즘](알고리즘/Sort_Algorithm.md) |          |
+| :white_check_mark: | [탐색 알고리즘](알고리즘/Search_Algorithm.md) |          |
