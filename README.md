@@ -41,7 +41,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                      | 주제                                                                                     | 예상질문 |
 | -------------------- | ---------------------------------------------------------------------------------------- | -------- |
-| :white_large_square: | OSI 7 계층                                                                               |          |
+| :white_check_mark: | [OSI 7 계층] (네트워크/OSI_7계층.md)                                                                               |          |
 | :white_check_mark:   | [TCP 3 way handshake & 4 way handshake](네트워크/TCP_3_way_handshake_4_way_handshake.md) |          |
 | :white_large_square: | TCP/IP 흐름제어 & 혼잡제어                                                               |          |
 | :white_large_square: | UDP                                                                                      |          |
