@@ -72,3 +72,5 @@ redis의 pub/sub 시스템은 매우 단순한 구조로 되어있다.
 publisher가 subscriber에게 메세지를 전달하지만 던지는 구조이기 때문에 메세지를 따로 보관하지 않고 메세지의 수신이 보장되지 않는다.
 
 하지만 웹소켓을 이용하는 경우에는 네트워크 통신이 필요하기에 레이턴시(딜레이)가 약간 생기는데 비해 redis는 In-Memory 기반이라 매우 빠르게 메세지를 받을 수 있다.
+
+추가자료 : [서버클러스터링](https://developer111.tistory.com/69), [Redis pub/sub활용](https://www.daddyprogrammer.org/post/4731/spring-websocket-chatting-server-redis-pub-sub/)
