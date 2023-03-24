@@ -83,7 +83,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | -------------------- | -------------------------------------------------------------- | -------- |
 | :white_large_square: | 키(Key) 정리                                                   |          |
 | :white_check_mark:   | [SQL-기본](데이터베이스/SQL-기본.md)                           |          |
-| :white_check_mark:   | [SQL-JOIN](데이터베이스/SQL-JOIN.md)
+| :white_check_mark:   | [SQL-JOIN](데이터베이스/SQL-JOIN.md)                           |
 | :white_large_square: | SQL Injection                                                  |          |
 | :white_check_mark:   | [SQL vs NoSQL](데이터베이스/SQL-vs-NoSQL.md)                   |          |
 | :white_check_mark:   | [정규화(Nomalization)](<데이터베이스/정규화(Nomalization).md>) |          |
@@ -92,7 +92,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_large_square: | 트랜잭션(Transaction)                                          |          |
 | :white_large_square: | 트랜잭션 격리 수준(Transaction Isolation Level)                |          |
 | :white_large_square: | 저장 프로시저(Stored PROCEDURE)                                |          |
-| :white_large_square: | 레디스(Redis)                                                  |          |
+| :white_check_mark:   | [레디스(Redis)](<데이터베이스/레디스(Redis).md>)               |          |
 
 <br/>
 
@@ -132,7 +132,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 8. 알고리즘
 
-|                    | 주제                                        | 예상질문 |
-| ------------------ | ------------------------------------------- | -------- |
-| :white_check_mark: | [정렬 알고리즘](알고리즘/Sort_Algorithm.md) |          |
+|                    | 주제                                          | 예상질문 |
+| ------------------ | --------------------------------------------- | -------- |
+| :white_check_mark: | [정렬 알고리즘](알고리즘/Sort_Algorithm.md)   |          |
 | :white_check_mark: | [탐색 알고리즘](알고리즘/Search_Algorithm.md) |          |
