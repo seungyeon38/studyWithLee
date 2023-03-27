@@ -20,16 +20,16 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                      | 주제                                                 | 예상질문 |
 | -------------------- | ---------------------------------------------------- | -------- |
-| :white_check_mark: | [어댑터 패턴](디자인패턴/디자인패턴_구조패턴) |          |
-| :white_check_mark:   | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴)        |          |
+| :white_check_mark: | [어댑터 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
+| :white_check_mark:   | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴.md)        |          |
 | :white_large_square: | 탬플릿 메소드 패턴                                   |          |
-| :white_check_mark:   | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴) |          |
-| :white_check_mark:   | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴)   |          |
-| :white_check_mark:   | [빌더 패턴](디자인패턴/디자인패턴_생성패턴)          |          |
+| :white_check_mark:   | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴.md) |          |
+| :white_check_mark:   | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴.md)   |          |
+| :white_check_mark:   | [빌더 패턴](디자인패턴/디자인패턴_생성패턴.md)          |          |
 | :white_large_square: | 옵저버 패턴                                          |          |
 | :white_large_square: | 스트레티지 패턴                                      |          |
-| :white_check_mark: | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴) |          |
-| :white_check_mark: | [브리지 패턴](디자인패턴/디자인패턴_구조패턴) |          |
+| :white_check_mark: | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
+| :white_check_mark: | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
 | :white_large_square: | SOLID                                                |          |
 | :white_large_square: | 전략 패턴                                            |          |
 | :white_large_square: | 이터레이터 패턴                                      |          |
