@@ -130,7 +130,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 |                      | 주제               | 예상질문 |
 | -------------------- | ------------------ | -------- |
 | :white_check_mark:   | [REST](웹/REST.md) |          |
-| :white_large_square: | 내용 6             |          |
+| :white_check_mark: | [브라우저 동작원리](웹/브라우저_동작원리.md)             |          |
 
 ## 8. 알고리즘
 
