@@ -1,5 +1,5 @@
 # JAVA의 상속 
-- [JAVA의 상속](#java의-상속)
+- JAVA의 상속
     - [1. extends](#1-extends)
     - [2. implements](#2-implements)
     - [3. abstract](#3-abstract)
