@@ -1,6 +1,6 @@
 ## TCP
 - 신뢰성있는 데이터 전송을 지원하는 연결지향형 프로토콜. IP가 함께 사용되며, 데이터의 전송을 처리하는 것이 IP, TCP는 패킷 추적 및 관리.
-- 연결하는 방식은 [HandShake](네트워크/TCP_3_way_handshake_4_way_handshake.md) 참고.
+- 연결하는 방식은 [HandShake](./TCP_3_way_handshake_4_way_handshake.md) 참고.
 - 흐름제어와 혼잡 제어 지원하며 데이터의 순서 보장.
 #### 흐름제어
 - 보내는 측과 받는 측의 데이터 처리속도 차이를 조절.
@@ -31,4 +31,4 @@
 ![image](https://user-images.githubusercontent.com/32945436/227433976-db26c238-a427-436a-86ce-fbe748859d93.png)
 ![image](https://user-images.githubusercontent.com/32945436/227433987-f60ed9ec-aff6-4c97-a437-87a6d8361b51.png)
 
-[참고자료](https://cocoon1787.tistory.com/757)
+[참고자료] (https://cocoon1787.tistory.com/757)
