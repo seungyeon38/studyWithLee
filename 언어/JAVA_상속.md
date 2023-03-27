@@ -32,7 +32,7 @@ public class ExtendsSample {
     public static main(String[] args) {
     	Car A = new Car();
         System.out.println(A.getSpeed());
-        A.Printspd();
+        A.printspd();
     }
 }
 ```
