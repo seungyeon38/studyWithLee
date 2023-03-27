@@ -1,9 +1,8 @@
 # JAVA의 상속 
-- JAVA의 상속
-    - [1. extends](#1-extends)
-    - [2. implements](#2-implements)
-    - [3. abstract](#3-abstract)
-    - [4. 상속 관계에서 객체 생성 방법](#4-상속-관계에서-객체-생성-방법)
+- [1. extends](#1-extends)
+- [2. implements](#2-implements)
+- [3. abstract](#3-abstract)
+- [4. 상속 관계에서 객체 생성 방법](#4-상속-관계에서-객체-생성-방법)
 
 ### 1. extends
    - 부모의 메소드를 그대로 사용할 수 있으며 오버라이딩 할 필요없이 부모에 구현되어있는 것을 직접 사용 가능 
