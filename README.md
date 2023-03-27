@@ -120,7 +120,8 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                    | 주제                                          | 예상질문 |
 | ------------------ | --------------------------------------------- | -------- |
-| :white_check_mark: | [JAVA - 장단점](언어/JAVA.md)                 |          |
+| :white_check_mark: | [JAVA - 특징](언어/JAVA.md)                 |          |
+| :white_check_mark: | [JAVA - 객체지향언어의 특징](언어/JAVA.md)                 |          |
 | :white_check_mark: | [JAVA - JVM](언어/JAVA.md)                    |          |
 | :white_check_mark: | [JAVA - 컴파일 과정](언어/JAVA.md)            |          |
 | :white_check_mark: | [JAVA - GC(Garbage Collection)](언어/JAVA.md) |          |
