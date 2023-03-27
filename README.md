@@ -18,24 +18,24 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 1. 디자인 패턴
 
-|                      | 주제                      | 예상질문 |
-| -------------------- | ------------------------- | -------- |
-| :white_large_square: | 어댑터 패턴               |          |
-| :white_check_mark: | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴) |          |
-| :white_large_square: | 탬플릿 메소드 패턴        |          |
-| :white_check_mark: | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴) |          |
-| :white_check_mark: | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴) |          |
-| :white_check_mark: | [빌더 패턴](디자인패턴/디자인패턴_생성패턴) |          |
-| :white_large_square: | 옵저버 패턴               |          |
-| :white_large_square: | 스트레티지 패턴           |          |
-| :white_large_square: | 컴포지트 패턴             |          |
-| :white_large_square: | SOLID                     |          |
-| :white_large_square: | 전략 패턴                 |          |
-| :white_large_square: | 이터레이터 패턴           |          |
-| :white_large_square: | MVC 패턴                  |          |
-| :white_large_square: | MVP 패턴                  |          |
-| :white_large_square: | MVVM 패턴                 |          |
-| :white_large_square: | 프록시 패턴과 프록시 서버 |          |
+|                      | 주제                                                 | 예상질문 |
+| -------------------- | ---------------------------------------------------- | -------- |
+| :white_large_square: | 어댑터 패턴                                          |          |
+| :white_check_mark:   | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴)        |          |
+| :white_large_square: | 탬플릿 메소드 패턴                                   |          |
+| :white_check_mark:   | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴) |          |
+| :white_check_mark:   | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴)   |          |
+| :white_check_mark:   | [빌더 패턴](디자인패턴/디자인패턴_생성패턴)          |          |
+| :white_large_square: | 옵저버 패턴                                          |          |
+| :white_large_square: | 스트레티지 패턴                                      |          |
+| :white_large_square: | 컴포지트 패턴                                        |          |
+| :white_large_square: | SOLID                                                |          |
+| :white_large_square: | 전략 패턴                                            |          |
+| :white_large_square: | 이터레이터 패턴                                      |          |
+| :white_large_square: | MVC 패턴                                             |          |
+| :white_large_square: | MVP 패턴                                             |          |
+| :white_large_square: | MVVM 패턴                                            |          |
+| :white_large_square: | 프록시 패턴과 프록시 서버                            |          |
 
 <br/>
 
@@ -43,14 +43,14 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                      | 주제                                                                                     | 예상질문 |
 | -------------------- | ---------------------------------------------------------------------------------------- | -------- |
-| :white_check_mark: | [OSI 7 계층](네트워크/OSI_7계층.md)                                                                               |          |
+| :white_check_mark:   | [OSI 7 계층](네트워크/OSI_7계층.md)                                                      |          |
 | :white_check_mark:   | [TCP 3 way handshake & 4 way handshake](네트워크/TCP_3_way_handshake_4_way_handshake.md) |          |
 | :white_large_square: | TCP/IP 흐름제어 & 혼잡제어                                                               |          |
-| :white_check_mark: | [TCP&UDP](네트워크/TCP&UDP.md)                                                                                      |          |
+| :white_check_mark:   | [TCP&UDP](네트워크/TCP&UDP.md)                                                           |          |
 | :white_check_mark:   | [대칭키 & 공개키](네트워크/대칭키&공개키.md)                                             |          |
 | :white_check_mark:   | [HTTP & HTTPS](네트워크/HTTP&HTTPS.md)                                                   |          |
 | :white_large_square: | TLS/SSL handshake                                                                        |          |
-| :white_large_square: | 로드 밸런싱(Load Balancing)                                                              |          |
+| :white_check_mark:   | [로드 밸런싱(Load Balancing)](<네트워크/로드-밸런싱(Load-Balancing).md>)                 |          |
 | :white_large_square: | Blocking,Non-blocking & Synchronous,Asynchronous                                         |          |
 | :white_large_square: | Blocking & Non-Blocking I/O                                                              |          |
 | :white_check_mark:   | [WebSocket & Socket.io](네트워크/WebSocket&Socketio.md)                                  |          |
@@ -139,10 +139,9 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark: | [정렬 알고리즘](알고리즘/Sort_Algorithm.md)   |          |
 | :white_check_mark: | [탐색 알고리즘](알고리즘/Search_Algorithm.md) |          |
 
-
 ## 9. 소프트웨어
 
-|                    | 주제                                          | 예상질문 |
-| ------------------ | --------------------------------------------- | -------- |
-| :white_check_mark: | [애자일(Agile)](소프트웨어/애자일(Agile).md)  |          |
-| :white_large_square: | 객체 지향 프로그래밍 |          |
+|                      | 주제                                           | 예상질문 |
+| -------------------- | ---------------------------------------------- | -------- |
+| :white_check_mark:   | [애자일(Agile)](<소프트웨어/애자일(Agile).md>) |          |
+| :white_large_square: | 객체 지향 프로그래밍                           |          |
