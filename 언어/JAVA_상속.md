@@ -97,7 +97,6 @@ public abstract class SmartPhone {
 
     // 각각의 단말기(기계)들의 spec
     abstract void spec();    // 추상메서드
-    }
 }
    
 public class Galaxy extends SmartPhone {
