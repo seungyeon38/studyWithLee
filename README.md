@@ -147,4 +147,4 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 |                      | 주제                                           | 예상질문 |
 | -------------------- | ---------------------------------------------- | -------- |
 | :white_check_mark:   | [애자일(Agile)](<소프트웨어/애자일(Agile).md>) |          |
-| :white_large_square: | 객체 지향 프로그래밍                           |          |
+| :white_check_mark: | [객체 지향 프로그래밍](<소프트웨어/객체 지향 프로그래밍.md>)        |          |
