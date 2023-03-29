@@ -18,25 +18,25 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 1. 디자인 패턴
 
-|                      | 주제                                                 | 예상질문 |
-| -------------------- | ---------------------------------------------------- | -------- |
-| :white_check_mark: | [어댑터 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
+|                      | 주제                                                    | 예상질문 |
+| -------------------- | ------------------------------------------------------- | -------- |
+| :white_check_mark:   | [어댑터 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
 | :white_check_mark:   | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴.md)        |          |
-| :white_large_square: | 탬플릿 메소드 패턴                                   |          |
+| :white_large_square: | 탬플릿 메소드 패턴                                      |          |
 | :white_check_mark:   | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴.md) |          |
 | :white_check_mark:   | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴.md)   |          |
 | :white_check_mark:   | [빌더 패턴](디자인패턴/디자인패턴_생성패턴.md)          |          |
-| :white_large_square: | 옵저버 패턴                                          |          |
-| :white_large_square: | 스트레티지 패턴                                      |          |
-| :white_check_mark: | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
-| :white_check_mark: | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md) |          |
-| :white_large_square: | SOLID                                                |          |
-| :white_large_square: | 전략 패턴                                            |          |
-| :white_large_square: | 이터레이터 패턴                                      |          |
-| :white_large_square: | MVC 패턴                                             |          |
-| :white_large_square: | MVP 패턴                                             |          |
-| :white_large_square: | MVVM 패턴                                            |          |
-| :white_large_square: | 프록시 패턴과 프록시 서버                            |          |
+| :white_large_square: | 옵저버 패턴                                             |          |
+| :white_large_square: | 스트레티지 패턴                                         |          |
+| :white_check_mark:   | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md)      |          |
+| :white_check_mark:   | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
+| :white_large_square: | SOLID                                                   |          |
+| :white_large_square: | 전략 패턴                                               |          |
+| :white_large_square: | 이터레이터 패턴                                         |          |
+| :white_large_square: | MVC 패턴                                                |          |
+| :white_large_square: | MVP 패턴                                                |          |
+| :white_large_square: | MVVM 패턴                                               |          |
+| :white_large_square: | 프록시 패턴과 프록시 서버                               |          |
 
 <br/>
 
@@ -91,7 +91,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark:   | [SQL vs NoSQL](데이터베이스/SQL-vs-NoSQL.md)                   |          |
 | :white_check_mark:   | [정규화(Nomalization)](<데이터베이스/정규화(Nomalization).md>) |          |
 | :white_check_mark:   | [이상(Anomaly)](<데이터베이스/이상(Anomaly).md>)               |          |
-| :white_large_square: | 인덱스(INDEX)                                                  |          |
+| :white_check_mark:   | [인덱스(INDEX)](<데이터베이스/인덱스(INDEX).md>)               |          |
 | :white_large_square: | 트랜잭션(Transaction)                                          |          |
 | :white_large_square: | 트랜잭션 격리 수준(Transaction Isolation Level)                |          |
 | :white_large_square: | 저장 프로시저(Stored PROCEDURE)                                |          |
@@ -120,20 +120,20 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                    | 주제                                          | 예상질문 |
 | ------------------ | --------------------------------------------- | -------- |
-| :white_check_mark: | [JAVA - 특징](언어/JAVA.md)                 |          |
-| :white_check_mark: | [JAVA - 객체지향언어의 특징](언어/JAVA.md)                 |          |
+| :white_check_mark: | [JAVA - 특징](언어/JAVA.md)                   |          |
+| :white_check_mark: | [JAVA - 객체지향언어의 특징](언어/JAVA.md)    |          |
 | :white_check_mark: | [JAVA - JVM](언어/JAVA.md)                    |          |
 | :white_check_mark: | [JAVA - 컴파일 과정](언어/JAVA.md)            |          |
 | :white_check_mark: | [JAVA - GC(Garbage Collection)](언어/JAVA.md) |          |
-| :white_check_mark: | [JAVA - 상속](언어/JAVA_상속.md) |          |
+| :white_check_mark: | [JAVA - 상속](언어/JAVA_상속.md)              |          |
 | :white_check_mark: | [Spring](프레임워크/Spring.md)                |          |
 
 ## 7. 웹
 
-|                      | 주제               | 예상질문 |
-| -------------------- | ------------------ | -------- |
-| :white_check_mark:   | [REST](웹/REST.md) |          |
-| :white_check_mark: | [브라우저 동작원리](웹/브라우저_동작원리.md)             |          |
+|                    | 주제                                         | 예상질문 |
+| ------------------ | -------------------------------------------- | -------- |
+| :white_check_mark: | [REST](웹/REST.md)                           |          |
+| :white_check_mark: | [브라우저 동작원리](웹/브라우저_동작원리.md) |          |
 
 ## 8. 알고리즘
 
@@ -144,8 +144,8 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 9. 소프트웨어
 
-|                      | 주제                                           | 예상질문 |
-| -------------------- | ---------------------------------------------- | -------- |
-| :white_check_mark:   | [애자일(Agile)](<소프트웨어/애자일(Agile).md>) |          |
-| :white_check_mark: | [객체 지향 프로그래밍](<소프트웨어/객체 지향 프로그래밍.md>)        |          |
-| :white_check_mark: | [TDD](소프트웨어/TDD.md)        |          |
+|                    | 주제                                                         | 예상질문 |
+| ------------------ | ------------------------------------------------------------ | -------- |
+| :white_check_mark: | [애자일(Agile)](<소프트웨어/애자일(Agile).md>)               |          |
+| :white_check_mark: | [객체 지향 프로그래밍](<소프트웨어/객체 지향 프로그래밍.md>) |          |
+| :white_check_mark: | [TDD](소프트웨어/TDD.md)                                     |          |
