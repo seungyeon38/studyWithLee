@@ -62,20 +62,20 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 |                      | 주제                                | 예상질문 |
 | -------------------- | ----------------------------------- | -------- |
-| :white_large_square: | 운영체제란                          |          |
-| :white_large_square: | 프로세스 vs 스레드                  |          |
+| :white_check_mark: | [운영체제란](운영체제/운영체제.md) |          |
+| :white_check_mark: | [프로세스 vs 스레드](운영체제/운영체제.md) |          |
 | :white_large_square: | 프로세스 주소 공간                  |          |
 | :white_large_square: | 인터럽트(Interrupt)                 |          |
 | :white_large_square: | 시스템 콜(System Call)              |          |
 | :white_large_square: | PCB와 Context Switching             |          |
 | :white_large_square: | IPC(Inter Process Communication)    |          |
-| :white_large_square: | CPU 스케줄링                        |          |
-| :white_large_square: | 데드락(DeadLock)                    |          |
+| :white_check_mark: | [CPU 스케줄링](운영체제/운영체제.md) |          |
+| :white_check_mark: | [데드락(DeadLock)](운영체제/운영체제.md) |          |
 | :white_large_square: | Race Condition                      |          |
 | :white_large_square: | 세마포어(Semaphore) & 뮤텍스(Mutex) |          |
 | :white_large_square: | 페이징 & 세그먼테이션 (PDF)         |          |
 | :white_large_square: | 페이지 교체 알고리즘                |          |
-| :white_large_square: | 메모리(Memory)                      |          |
+| :white_check_mark: | [메모리(Memory)](운영체제/운영체제.md) |          |
 | :white_large_square: | 파일 시스템                         |          |
 
 <br/>
