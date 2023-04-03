@@ -113,6 +113,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_large_square: | 해시(Hash)                       |          |
 | :white_large_square: | 트라이(Trie)                     |          |
 | :white_large_square: | B-Tree & B+Tree                  |          |
+| :white_check_mark:   | [B-Tree](자료구조/B-Tree.md)     |          |
 
 <br/>
 
