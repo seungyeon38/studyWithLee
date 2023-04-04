@@ -31,7 +31,6 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark:   | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md)      |          |
 | :white_check_mark:   | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
 | :white_large_square: | SOLID                                                   |          |
-| :white_large_square: | 이터레이터 패턴                                         |          |
 | :white_large_square: | MVC 패턴                                                |          |
 | :white_large_square: | MVP 패턴                                                |          |
 | :white_large_square: | MVVM 패턴                                               |          |
