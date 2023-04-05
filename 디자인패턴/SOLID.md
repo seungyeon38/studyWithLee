@@ -140,7 +140,7 @@ JDBC 매니저를 상속받는 PostgreSQL, Oracle, Sybase는 모두 변경에는
 <br/>
 
 ## 3. LSP(Liskov Substitution Principle)
-> 리스코프 치환 원칙
+> 리스코프 치환 원칙 <br/>
 > 하위 타입이 상위 타입이 지정한 제약조건들을 지키고, 상위 타입에서 하위 타입으로의 변동이 일어나도 상위타입의 역할을 문제없이 제공해야한다. 
 
 ```java
@@ -173,8 +173,9 @@ Bus 클래스는 Car 클래스가 제공하는 drive 메소드의 speed += 10기
 <br/>
 
 ## 4. ISP(Interface Segregation Principle)
-> 인터페이스 분리 원칙
-> 인터페이스를 최대한 변경을 하지 않도록 구체적으로 구분해야 한다. 
+> 인터페이스 분리 원칙 <br/>
+> 인터페이스를 최대한 변경을 하지 않도록 구체적으로 구분해야 한다. <br/>
+> 자식 클래스에게 쓸데없는 인터페이스를 구현하지 말도록 해야 한다. 
 
 ```java
 interface Person {
