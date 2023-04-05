@@ -60,27 +60,27 @@ Person 클래스를 단 하나의 책임만 갖도록 Cook 클래스와 Customer
 [적용 전]
 ```java
 class Truck{
-	public void drive() {
-		System.out.println("Truck Drive");
-	}
+    public void drive() {
+	System.out.println("Truck Drive");
+    }
 }
 
 class Bus{
-	public void drive() {
-		System.out.println("Bus Drive");
-	}	
+    public void drive() {
+	System.out.println("Bus Drive");
+    }	
 }
 
 public class Driver {
-	public static void main(String[] args) {
-		// 트럭 운전 인스턴스 생성
-		Truck driver1 = new Truck();
-		driver1.drive();
+    public static void main(String[] args) {
+	// 트럭 운전 인스턴스 생성
+	Truck driver1 = new Truck();
+	driver1.drive();
 		
-		//버스 운전 인스턴스 생성
-		Bus driver2 = new Bus();
-		driver2.drive();
-	}
+	//버스 운전 인스턴스 생성
+	Bus driver2 = new Bus();
+	driver2.drive();
+    }
 }
 ```
 
@@ -111,15 +111,15 @@ class Truck implements Car {
 }
 
 public class Driver {
-	public static void main(String[] args) {
-		// 트럭 운전 인스턴스 생성
-		Car driver1 = new Truck();
-		driver1.drive();
+    public static void main(String[] args) {
+    	// 트럭 운전 인스턴스 생성
+	Car driver1 = new Truck();
+	driver1.drive();
 		
-		//버스 운전 인스턴스 생성
-		Car driver2 = new Bus();
-		driver2.drive();
-	}
+	//버스 운전 인스턴스 생성
+	Car driver2 = new Bus();
+	driver2.drive();
+    }
 }
 ```
 
