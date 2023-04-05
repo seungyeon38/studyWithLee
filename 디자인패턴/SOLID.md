@@ -1,5 +1,6 @@
 # SOLID 원칙 
-> 객체 지향 프로그래밍 및 설계의 5가지 기본 원칙 
+> 객체 지향 프로그래밍 및 설계의 5가지 기본 원칙 <br/>
+> **높은 응집도**와 **낮은 결합도**가 목표 
 
 1. [SRP(Single Responsibility Principle)](#1-srpsingle-responsibility-principle) : 단일 책임 원칙
 2. [OCP(Open/Closed Principle)](#2-ocpopenclosed-principle) : 개방/폐쇄 원칙 
@@ -50,30 +51,91 @@ Person 클래스를 단 하나의 책임만 갖도록 Cook 클래스와 Customer
 
 ## 2. OCP(Open/Closed Principle)
 > 개방/폐쇄 원칙 <br/>
-> 소프트웨어 엔티티(클래스, 모듈, 함수 등)는 확장에는 열려있고, 변경에는 닫혀있어야 한다. <br/>
-> 즉, 기존 소프트웨어 엔티티 기능에 대한 변경이 있더라도 변경없이 새롭게 확장하여 기능을 추가할 수 있어야 한다. <br/>
+> 기존의 코드를 변경하지 않으면서, 기능을 추가할 수 있도록 설계가 되어야 한다. <br/>
+> 확장에 대해서는 개방적(open)이고, 수정에 대해서는 폐쇄적(closed)이어야 한다. <br/>
+> 확장에 개방적 : 새로운 타입(클래스, 모듈, 함수)을 추가함으로써 기능을 확장 <br/>
+> 수정에 폐쇄적 : 확장이 발생했을 때 해당 코드를 호출하는 쪽에서는 변경이 발생하지 않는 것 <br/>
 > '추상화', '다형성'을 이용하여 가능하다.
 
+[적용 전]
+```java
+class Truck{
+	public void drive() {
+		System.out.println("Truck Drive");
+	}
+}
+
+class Bus{
+	public void drive() {
+		System.out.println("Bus Drive");
+	}	
+}
+
+public class Driver {
+	public static void main(String[] args) {
+		// 트럭 운전 인스턴스 생성
+		Truck driver1 = new Truck();
+		driver1.drive();
+		
+		//버스 운전 인스턴스 생성
+		Bus driver2 = new Bus();
+		driver2.drive();
+	}
+}
+```
+
+<br/>
+
+[적용 후]
 ```java
 interface Car {
+    void drive();
     void accel();
     void brake();
 }
 
 class Bus implements Car {
+    void drive() {
+        System.out.println("Bus Drive");
+    };
     void accel() { //속도 10 증가 };
     void brake() { //속도 5 감소 };
 }
 
 class Truck implements Car {
+    void drive() {
+        System.out.println("Truck Drive");
+    };
     void accel() { //속도 5 증가 };
     void brake() { //속도 3 감소 };
 }
+
+public class Driver {
+	public static void main(String[] args) {
+		// 트럭 운전 인스턴스 생성
+		Car driver1 = new Truck();
+		driver1.drive();
+		
+		//버스 운전 인스턴스 생성
+		Car driver2 = new Bus();
+		driver2.drive();
+	}
+}
 ```
 
-위에서 클라이언트(운전자)는 자동차가 변경되더라도 엑셀을 밟거나 브레이크를 밟는 것에 대해 영향을 받지 않는다. 이는 클라이언트가 변경에는 닫혀있는 것을 의미한다. <br/>
+위에서 클라이언트(운전자)는 자동차가 변경되더라도 운전하는 것에 대해 영향을 받지 않는다. 이는 클라이언트가 변경에는 닫혀있는 것을 의미한다. <br/>
 
 반대로, 자동차는 Bus나 Truck 이외에도 다른 자동차 종류로 클래스를 인터페이스를 통해 확장할 수 있고, 클라이언트(운전자)의 역할에는 영향을 끼치지 않는다. 이는 확장에는 열려있는 것을 의미한다.
+
+<br/>
+
+또 다른 예시, Java 애플리케이션에서의 JDBC 매니저 
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/29995318/229976372-34e24e0a-3413-4946-a3a3-128a616931ff.png">
+
+JDBC 매니저를 상속받는 PostgreSQL, Oracle, Sybase는 모두 변경에는 확장적이지만, 자바 어플리케이션은 수정에 폐쇄적이다. <br/>
+
+더 쉽게 말하자면, Oracle DB의 변화가 발생하여도 자바 어플리케이션에서 수정할 코드는 없다
 
 <br/>
 
