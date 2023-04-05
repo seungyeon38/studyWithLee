@@ -1,7 +1,7 @@
 # SOLID 원칙 
 > 객체 지향 프로그래밍 및 설계의 5가지 기본 원칙 
 
-1.[SRP(Single Responsibility Principle)](#1-srpsingle-responsibility-principle) : 단일 책임 원칙
+1. [SRP(Single Responsibility Principle)](#1-srpsingle-responsibility-principle) : 단일 책임 원칙
 2. [OCP(Open/Closed Principle)](#2-ocpopenclosed-principle) : 개방/폐쇄 원칙 
 3. [LSP(Liskov Substitution Principle)](#3-lspliskov-substitution-principle) : 리스코프 치환 원칙
 4. [ISP(Interface Segregation Principle)](#4-ispinterface-segregation-principle) : 인터페이스 분리 원칙
