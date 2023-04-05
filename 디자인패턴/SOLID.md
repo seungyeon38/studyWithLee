@@ -56,18 +56,18 @@ Person 클래스를 단 하나의 책임만 갖도록 Cook 클래스와 Customer
 
 ```java
 interface Car {
-	void accel();
-	void brake();
+    void accel();
+    void brake();
 }
 
 class Bus implements Car {
-	void accel() { //속도 10 증가 };
-	void brake() { //속도 5 감소 };
+    void accel() { //속도 10 증가 };
+    void brake() { //속도 5 감소 };
 }
 
 class Truck implements Car {
-	void accel() { //속도 5 증가 };
-	void brake() { //속도 3 감소 };
+    void accel() { //속도 5 증가 };
+    void brake() { //속도 3 감소 };
 }
 ```
 
@@ -83,23 +83,23 @@ class Truck implements Car {
 
 ```java
 class Car {
-	int speed;
-	void drive() { 
-		this.speed += 10;
-	}
+    int speed;
+    void drive() { 
+    	this.speed += 10;
+    }
 }
 
 class Bus extends Car {
-	int speed;
-	int km;
+    int speed;
+    int km;
 	
-	@Override 
-	void drive() {
-		// 부모 기능 그대로 수행
-		this.speed += 10;
-		// 하위 타입 기능 추가
-		this.km += 1;
-	}
+    @Override 
+    void drive() {
+    	// 부모 기능 그대로 수행
+	this.speed += 10;
+	// 하위 타입 기능 추가
+	this.km += 1;
+    }
 }
 ```
 Bus 클래스는 Car 클래스가 제공하는 drive 메소드의 speed += 10기능을 그대로 수행하고 있고, 하위 타입에서 추가적으로 구현한 km += 1을 수행한다. <br/>
@@ -116,11 +116,11 @@ Bus 클래스는 Car 클래스가 제공하는 drive 메소드의 speed += 10기
 
 ```java
 interface Person {
-	void cook();
-	void plate();
-	void order();
-	void pickup();
-	void eat();
+    void cook();
+    void plate();
+    void order();
+    void pickup();
+    void eat();
 }
 ```
 위와 같이 Person 인터페이스를 요리사 인터페이스의 기능과 손님 인터페이스를 모두 구현할 수 있다.
@@ -128,14 +128,14 @@ interface Person {
 
 ```java
 interface Cook {
-	void cook();
-	void plate();
+    void cook();
+    void plate();
 }
 
 interface Customer {
-	void order();
-	void pickup();
-	void eat();
+    void order();
+    void pickup();
+    void eat();
 }
 ```
 따라서, Cook 인터페이스와 Customer 인터페이스로 구분해 만들어 준다면, Cook 인터페이스에서는 Customer 인터페이스의 기능을, Customer 인터페이스에서는 Cook 인터페이스의 기능을 구현하지 않아도 된다.
