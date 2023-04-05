@@ -22,12 +22,12 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | -------------------- | ------------------------------------------------------- | -------- |
 | :white_check_mark:   | [어댑터 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
 | :white_check_mark:   | [싱글톤 패턴](디자인패턴/디자인패턴_생성패턴.md)        |          |
-| :white_check_mark: | [템플릿 메소드 패턴](디자인패턴/디자인패턴_행위패턴.md) |          |
+| :white_check_mark:   | [템플릿 메소드 패턴](디자인패턴/디자인패턴_행위패턴.md) |          |
 | :white_check_mark:   | [팩토리 메소드 패턴](디자인패턴/디자인패턴_생성패턴.md) |          |
 | :white_check_mark:   | [추상 팩토리 패턴](디자인패턴/디자인패턴_생성패턴.md)   |          |
 | :white_check_mark:   | [빌더 패턴](디자인패턴/디자인패턴_생성패턴.md)          |          |
-| :white_check_mark: | [옵저버 패턴](디자인패턴/디자인패턴_행위패턴.md) |          |
-| :white_check_mark: | [스트레티지 패턴](디자인패턴/디자인패턴_행위패턴.md) |          |
+| :white_check_mark:   | [옵저버 패턴](디자인패턴/디자인패턴_행위패턴.md)        |          |
+| :white_check_mark:   | [스트레티지 패턴](디자인패턴/디자인패턴_행위패턴.md)    |          |
 | :white_check_mark:   | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md)      |          |
 | :white_check_mark:   | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
 | :white_large_square: | SOLID                                                   |          |
@@ -58,23 +58,23 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 3. 운영체제
 
-|                      | 주제                                | 예상질문 |
-| -------------------- | ----------------------------------- | -------- |
-| :white_check_mark: | [운영체제란](운영체제/운영체제.md) |          |
-| :white_check_mark: | [프로세스 vs 스레드](운영체제/운영체제.md) |          |
-| :white_large_square: | 프로세스 주소 공간                  |          |
-| :white_large_square: | 인터럽트(Interrupt)                 |          |
-| :white_large_square: | 시스템 콜(System Call)              |          |
-| :white_large_square: | PCB와 Context Switching             |          |
-| :white_large_square: | IPC(Inter Process Communication)    |          |
-| :white_check_mark: | [CPU 스케줄링](운영체제/운영체제.md) |          |
-| :white_check_mark: | [데드락(DeadLock)](운영체제/운영체제.md) |          |
-| :white_large_square: | Race Condition                      |          |
-| :white_large_square: | 세마포어(Semaphore) & 뮤텍스(Mutex) |          |
-| :white_large_square: | 페이징 & 세그먼테이션 (PDF)         |          |
-| :white_large_square: | 페이지 교체 알고리즘                |          |
-| :white_check_mark: | [메모리(Memory)](운영체제/운영체제.md) |          |
-| :white_large_square: | 파일 시스템                         |          |
+|                      | 주제                                       | 예상질문 |
+| -------------------- | ------------------------------------------ | -------- |
+| :white_check_mark:   | [운영체제란](운영체제/운영체제.md)         |          |
+| :white_check_mark:   | [프로세스 vs 스레드](운영체제/운영체제.md) |          |
+| :white_large_square: | 프로세스 주소 공간                         |          |
+| :white_large_square: | 인터럽트(Interrupt)                        |          |
+| :white_large_square: | 시스템 콜(System Call)                     |          |
+| :white_large_square: | PCB와 Context Switching                    |          |
+| :white_large_square: | IPC(Inter Process Communication)           |          |
+| :white_check_mark:   | [CPU 스케줄링](운영체제/운영체제.md)       |          |
+| :white_check_mark:   | [데드락(DeadLock)](운영체제/운영체제.md)   |          |
+| :white_large_square: | Race Condition                             |          |
+| :white_large_square: | 세마포어(Semaphore) & 뮤텍스(Mutex)        |          |
+| :white_large_square: | 페이징 & 세그먼테이션 (PDF)                |          |
+| :white_large_square: | 페이지 교체 알고리즘                       |          |
+| :white_check_mark:   | [메모리(Memory)](운영체제/운영체제.md)     |          |
+| :white_large_square: | 파일 시스템                                |          |
 
 <br/>
 
@@ -99,19 +99,18 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 
 ## 5. 자료구조
 
-|                      | 주제                             | 예상질문 |
-| -------------------- | -------------------------------- | -------- |
-| :white_large_square: | Array                            |          |
-| :white_large_square: | LinkedList                       |          |
-| :white_large_square: | Array & ArrayList & LinkedList   |          |
-| :white_large_square: | 스택(Stack) & 큐(Queue)          |          |
-| :white_large_square: | 힙(Heap)                         |          |
-| :white_large_square: | 트리(Tree)                       |          |
-| :white_large_square: | 이진탐색트리(Binary Search Tree) |          |
-| :white_large_square: | 해시(Hash)                       |          |
-| :white_large_square: | 트라이(Trie)                     |          |
-| :white_large_square: | B-Tree & B+Tree                  |          |
-| :white_check_mark:   | [B-Tree](자료구조/B-Tree.md)     |          |
+|                      | 주제                                         | 예상질문 |
+| -------------------- | -------------------------------------------- | -------- |
+| :white_large_square: | Array                                        |          |
+| :white_large_square: | LinkedList                                   |          |
+| :white_large_square: | Array & ArrayList & LinkedList               |          |
+| :white_large_square: | 스택(Stack) & 큐(Queue)                      |          |
+| :white_large_square: | 힙(Heap)                                     |          |
+| :white_large_square: | 트리(Tree)                                   |          |
+| :white_large_square: | 이진탐색트리(Binary Search Tree)             |          |
+| :white_large_square: | 해시(Hash)                                   |          |
+| :white_check_mark:   | [트라이(Trie)](<자료구조/트라이(Trie).md>)   |          |
+| :white_check_mark:   | [B-Tree & B+Tree](자료구조/B-Tree&B+Tree.md) |          |
 
 <br/>
 
@@ -148,5 +147,5 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark: | [애자일(Agile)](<소프트웨어/애자일(Agile).md>)               |          |
 | :white_check_mark: | [객체 지향 프로그래밍](<소프트웨어/객체 지향 프로그래밍.md>) |          |
 | :white_check_mark: | [TDD](소프트웨어/TDD.md)                                     |          |
-| :white_check_mark: | [함수형 프로그래밍](<소프트웨어/함수형 프로그래밍.md>) |          |
-| :white_check_mark: | [클린코드](<소프트웨어/클린코드.md>) |          |
+| :white_check_mark: | [함수형 프로그래밍](<소프트웨어/함수형 프로그래밍.md>)       |          |
+| :white_check_mark: | [클린코드](소프트웨어/클린코드.md)                           |          |
