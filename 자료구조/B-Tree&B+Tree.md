@@ -88,4 +88,20 @@ B트리는 이진트리와 다르게 하나의 노드에 많은 수의 정보를
    3-2. 만일 인접 형제노드가 새로 구성되더라도 원래 k의 부모 노드가 최소 key의 개수보다 작아진다면, 부모 노드에 대하여 2번 과정부터 다시 수행합니다.
    ![image](https://velog.velcdn.com/images%2Femplam27%2Fpost%2Fe2f82f30-2f9c-4177-a908-1b5333f8e9d6%2FB%ED%8A%B8%EB%A6%AC%20%EC%82%AD%EC%A0%9C%203-2.png)
 
+</br>
+
 # B+Tree
+
+B-Tree의 확장개념으로, 브랜치 노드에는 key만 담아두고 데이터는 담지 않는다. 오직 리프 노드에서만 key와 데이터를 저장하고, 리프 노드끼리 Linked list로 연결되어 있는 Tree구조이다.
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbRiL19%2FbtqBTMSBCWF%2FJ3nKw2qympUVxGThnVdLK0%2Fimg.png)
+
+## B+Tree의 장점
+
+1. 리프 노드를 제외하고 데이터를 담아두지 않기 때문에 메모리를 더 확보함으로써 더 많은 key들을 수용할 수 있다. 하나의 노드에 더 많은 key들을 담을 수 있기에 트리의 높이는 더 낮아진다.(cache hit를 높일 수 있음)
+
+2. 풀 스캔 시, B+tree는 리프 노드에 데이터가 모두 있기 때문에 한 번의 선형탐색만 하면 되기 때문에 B-tree에 비해 빠르다. B-tree의 경우에는 모든 노드를 확인해야 한다.
+
+## InnoDB B+Tree
+
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FCbs9b%2FbtqBVf7DVW2%2F8JOOKlHiwkoTsqbvbTt7R1%2Fimg.png)
