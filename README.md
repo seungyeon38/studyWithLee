@@ -30,7 +30,7 @@ https://github.com/JaeYeopHan/Interview_Question_for_Beginner
 | :white_check_mark: | [스트레티지 패턴](디자인패턴/디자인패턴_행위패턴.md) |          |
 | :white_check_mark:   | [컴포지트 패턴](디자인패턴/디자인패턴_구조패턴.md)      |          |
 | :white_check_mark:   | [브리지 패턴](디자인패턴/디자인패턴_구조패턴.md)        |          |
-| :white_large_square: | SOLID                                                   |          |
+| :white_check_mark: | [SOLID](디자인패턴/SOLID.md) |          |
 | :white_large_square: | MVC 패턴                                                |          |
 | :white_large_square: | MVP 패턴                                                |          |
 | :white_large_square: | MVVM 패턴                                               |          |
